@@ -1,4 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   max-width: 800px;
   margin: 0 auto;
+  line-height: 1.2em;
+}
+
+ol ol, ul ul {
+  padding-left: 3em;
+}
+
+.shade-box {
+  border: 2px solid black;  
+  padding: 40px;
+  margin: 40px;
+  background-color: #DDD;
 }
