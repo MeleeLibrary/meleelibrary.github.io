@@ -157,3 +157,8 @@ main {
   margin: 40px;
   background-color: #DDD;
 }
+
+/* line 86, ../sass/screen.scss */
+.card {
+  border: 1px solid black;
+}
