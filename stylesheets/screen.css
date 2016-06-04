@@ -84,36 +84,73 @@ body {
   font-family: sans-serif;
   background-color: #FCFCFC;
   color: #242729;
+  line-height: 1.3em;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 ol ol, ol ul, ul ol, ul ul {
   padding-left: 3em;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 h1 {
   font-family: 'LeagueSpartan';
   font-size: 2em;
+  line-height: 1.3em;
+  margin: 2em 0 .8em 0;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
+.logo {
+  text-align: center;
+}
+
+/* line 47, ../sass/screen.scss */
+h2 {
+  font-size: 1.7em;
+  margin: 2em 0 1em 0;
+}
+
+/* line 51, ../sass/screen.scss */
+h3 {
+  font-size: 1.4em;
+  margin: 2em 0 1em 0;
+}
+
+/* line 55, ../sass/screen.scss */
+h4 {
+  font-size: 1.1em;
+  margin: 2em 0 1em 0;
+}
+
+/* line 60, ../sass/screen.scss */
+h5 {
+  margin: 2em 0 1em 0;
+}
+
+/* line 64, ../sass/screen.scss */
+h6 {
+  margin: 2em 0 1em 0;
+}
+
+/* line 69, ../sass/screen.scss */
 p {
   font-family: Georgia, sans-serif;
+  margin-bottom: 1em;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 main {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .shade-box {
   border: 2px solid black;
   padding: 40px;
