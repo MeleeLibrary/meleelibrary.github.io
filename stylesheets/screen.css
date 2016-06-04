@@ -162,3 +162,13 @@ main {
 .card {
   border: 1px solid black;
 }
+
+/* line 90, ../sass/screen.scss */
+.card-title {
+  background-color: grey;
+}
+
+/* line 93, ../sass/screen.scss */
+.card-description {
+  background-color: blue;
+}
