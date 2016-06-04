@@ -82,36 +82,38 @@ body {
   margin: 0 auto;
   line-height: 1.2em;
   font-family: sans-serif;
+  background-color: #FCFCFC;
+  color: #242729;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 ol ol, ol ul, ul ol, ul ul {
   padding-left: 3em;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 h1 {
   font-family: 'LeagueSpartan';
   font-size: 2em;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 p {
   font-family: Georgia, sans-serif;
 }
 
-/* line 56, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 main {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .shade-box {
   border: 2px solid black;
   padding: 40px;
