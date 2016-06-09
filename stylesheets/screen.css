@@ -161,14 +161,27 @@ main {
 /* line 86, ../sass/screen.scss */
 .card {
   border: 1px solid black;
-}
-
-/* line 90, ../sass/screen.scss */
-.card-title {
-  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 /* line 93, ../sass/screen.scss */
+.card-title {
+  flex: 400px 2 auto;
+  background-color: grey;
+}
+
+/* line 99, ../sass/screen.scss */
 .card-description {
+  flex: 800px 1 auto;
   background-color: blue;
+}
+
+/* line 104, ../sass/screen.scss */
+.card-author {
+  flex: 400px 2 auto;
+  justify-content: right;
+  text-align: right;
+  width: 400px;
 }

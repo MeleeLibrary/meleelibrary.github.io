@@ -85,11 +85,38 @@ main {
 
 .card {
   border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .card-title {
+  // flex: 2 auto;
+  // width: 400px ;
+  flex: 400px 2 auto; 
   background-color: grey;
 }
 .card-description {
+  flex: 800px 1 auto;
   background-color: blue;
+}
+
+.card-author {
+  // width: 400px;
+  flex: 400px 2 auto; 
+  justify-content: right;
+  text-align: right;
+  width: 400px;
+}
+
+.topic-description {
+
+}
+
+.topic {
+
+}
+
+.sub-topic {
+
 }
