@@ -70,16 +70,28 @@ $LIGHTGREY: #777;
 body {
   max-width: 800px;
   margin: 0 auto;
-  line-height: 1.2em;
+  line-height: 1.2rem;
   font-family: Georgia, sans-serif;
   background-color: #FCFCFC;
   color: #242729;
-  line-height: 1.3em;
+  line-height: 1.3rem;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+  ol {
+  list-style: upper-alpha;
+  }
 }
 
 ol, ul {
+  line-height: 1.6rem;
   ol, ul {
-  padding-left: 3em;
+  padding-left: 3rem;
   }
 }
 
@@ -89,44 +101,71 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: 'LeagueSpartan';
-  font-size: 2em;
-  line-height: 1.3em;
-  margin: 2em 0 .8em 0;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 2rem 0 .8rem 0;
 }
 
 .logo {
  text-align: center;
 }
 h2 {
-  font-size: 1.7em;
-  margin: 2em 0 1em 0;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  margin: 2rem 0 1.7rem 0;
 }
 h3 {
-  font-size: 1.4em;
-  margin: 2em 0 1em 0;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  margin: 2rem 0 1rem 0;
 }
 h4 {
-  font-size: 1.1em;
-  margin: 2em 0 1em 0;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  margin: 2rem 0 1rem 0;
   
 }
 h5 {
-  margin: 2em 0 1em 0;
+  margin: 2rem 0 1rem 0;
   
 }
 h6 {
-  margin: 2em 0 1em 0;
+  margin: 2rem 0 1rem 0;
   
 }
 
 p {
   font-family: Georgia, sans-serif;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 main {
-  margin-top: 50px;
+  margin-top: 150px;
   margin-bottom: 30px;
+}
+
+.logo {
+  margin-bottom: 4rem;
+}
+
+#intro {
+  width: 650px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.toc {
+  border-left: solid 5px LIGHTGREY;
+  padding-left: 20px;
+  ol {
+    list-style: none;
+    padding-left: 40px;
+  }
+}
+
+#toc-inline {
+  
+  margin: 100px 0 100px 0;
 }
 
 .shade-box {
@@ -139,7 +178,7 @@ main {
 .card {
   padding: 10px;
   @include card(1);
-  margin-bottom: 1em;
+  margin-bottom: 2rem;
 }
 
 .card-heading {
@@ -147,12 +186,24 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 .card-title {
+  a {
+    text-decoration: none;
+    &:hover {
+
+    text-decoration: underline;
+    }
+  }
 }
 .card-description {
-  padding-left: 1em;
+  margin-left: 1rem;
+
+  ol {
+    list-style: decimal;
+    margin-left: 2rem;
+  }
 
 }
 
@@ -162,15 +213,34 @@ main {
 }
 
 .topic-description {
-  margin-bottom: 1em;
+  margin-bottom: 3rem;
 }
 
 .topic {
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
 
 }
 
 .sub-topic {
   padding: 10px;
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
+}
+
+#toc-toggle {
+  position: fixed;
+  font-size: 3rem;
+  top: 40px;
+  left: 40px;
+  color: #ccc;
+}
+
+#sidebar {
+  position: fixed;
+  top: 60px;
+  left: -470px;
+  background-color: #FCFCFC;
+  transition: left 0.3s ease-in;
+  width: 450px;
+  padding: 20px;
+  // @include card(3);
 }

@@ -105,77 +105,126 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   max-width: 800px;
   margin: 0 auto;
-  line-height: 1.2em;
+  line-height: 1.2rem;
   font-family: Georgia, sans-serif;
   background-color: #FCFCFC;
   color: #242729;
-  line-height: 1.3em;
+  line-height: 1.3rem;
 }
 
-/* line 81, ../sass/screen.scss */
-ol ol, ol ul, ul ol, ul ul {
-  padding-left: 3em;
+/* line 80, ../sass/screen.scss */
+ul {
+  list-style: disc;
 }
 
+/* line 84, ../sass/screen.scss */
+ol {
+  list-style: decimal;
+}
 /* line 86, ../sass/screen.scss */
+ol ol {
+  list-style: upper-alpha;
+}
+
+/* line 91, ../sass/screen.scss */
+ol, ul {
+  line-height: 1.6rem;
+}
+/* line 93, ../sass/screen.scss */
+ol ol, ol ul, ul ol, ul ul {
+  padding-left: 3rem;
+}
+
+/* line 98, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 h1 {
   font-family: 'LeagueSpartan';
-  font-size: 2em;
-  line-height: 1.3em;
-  margin: 2em 0 .8em 0;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 2rem 0 .8rem 0;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .logo {
   text-align: center;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 h2 {
-  font-size: 1.7em;
-  margin: 2em 0 1em 0;
-}
-
-/* line 104, ../sass/screen.scss */
-h3 {
-  font-size: 1.4em;
-  margin: 2em 0 1em 0;
-}
-
-/* line 108, ../sass/screen.scss */
-h4 {
-  font-size: 1.1em;
-  margin: 2em 0 1em 0;
-}
-
-/* line 113, ../sass/screen.scss */
-h5 {
-  margin: 2em 0 1em 0;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  margin: 2rem 0 1.7rem 0;
 }
 
 /* line 117, ../sass/screen.scss */
-h6 {
-  margin: 2em 0 1em 0;
+h3 {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  margin: 2rem 0 1rem 0;
 }
 
 /* line 122, ../sass/screen.scss */
-p {
-  font-family: Georgia, sans-serif;
-  margin-bottom: 1em;
+h4 {
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  margin: 2rem 0 1rem 0;
 }
 
-/* line 127, ../sass/screen.scss */
-main {
-  margin-top: 50px;
-  margin-bottom: 30px;
+/* line 128, ../sass/screen.scss */
+h5 {
+  margin: 2rem 0 1rem 0;
 }
 
 /* line 132, ../sass/screen.scss */
+h6 {
+  margin: 2rem 0 1rem 0;
+}
+
+/* line 137, ../sass/screen.scss */
+p {
+  font-family: Georgia, sans-serif;
+  margin-bottom: 1rem;
+}
+
+/* line 142, ../sass/screen.scss */
+main {
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+/* line 147, ../sass/screen.scss */
+.logo {
+  margin-bottom: 4rem;
+}
+
+/* line 151, ../sass/screen.scss */
+#intro {
+  width: 650px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+/* line 157, ../sass/screen.scss */
+.toc {
+  border-left: solid 5px LIGHTGREY;
+  padding-left: 20px;
+}
+/* line 160, ../sass/screen.scss */
+.toc ol {
+  list-style: none;
+  padding-left: 40px;
+}
+
+/* line 166, ../sass/screen.scss */
+#toc-inline {
+  margin: 100px 0 100px 0;
+}
+
+/* line 171, ../sass/screen.scss */
 .shade-box {
   border: 2px solid black;
   padding: 40px;
@@ -183,45 +232,79 @@ main {
   background-color: #DDD;
 }
 
-/* line 139, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 .card {
   padding: 10px;
   box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
-  margin-bottom: 1em;
+  margin-bottom: 2rem;
 }
 
-/* line 145, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .card-heading {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
+.card-title a {
+  text-decoration: none;
+}
+/* line 194, ../sass/screen.scss */
+.card-title a:hover {
+  text-decoration: underline;
+}
+
+/* line 200, ../sass/screen.scss */
 .card-description {
-  padding-left: 1em;
+  margin-left: 1rem;
+}
+/* line 203, ../sass/screen.scss */
+.card-description ol {
+  list-style: decimal;
+  margin-left: 2rem;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .card-author {
   font-style: italic;
   color: #777;
 }
 
-/* line 164, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 .topic-description {
-  margin-bottom: 1em;
+  margin-bottom: 3rem;
 }
 
-/* line 168, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 .topic {
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
 }
 
-/* line 173, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 .sub-topic {
   padding: 10px;
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
+}
+
+/* line 229, ../sass/screen.scss */
+#toc-toggle {
+  position: fixed;
+  font-size: 3rem;
+  top: 40px;
+  left: 40px;
+  color: #ccc;
+}
+
+/* line 237, ../sass/screen.scss */
+#sidebar {
+  position: fixed;
+  top: 60px;
+  left: -470px;
+  background-color: #FCFCFC;
+  transition: left 0.3s ease-in;
+  width: 450px;
+  padding: 20px;
 }
