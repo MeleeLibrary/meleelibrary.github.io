@@ -192,38 +192,37 @@ p {
 
 /* line 142, ../sass/screen.scss */
 main {
-  padding-top: 150px;
-  padding-bottom: 30px;
+  padding: 150px 10px 30px 10px;
 }
 
-/* line 147, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 .logo {
   margin-bottom: 4rem;
 }
 
-/* line 151, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 #intro {
   max-width: 650px;
   margin: 0 auto;
   margin-bottom: 3rem;
 }
 
-/* line 157, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .toc {
   padding-left: 20px;
 }
-/* line 160, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 .toc ol {
   list-style: none;
   padding-left: 40px;
 }
 
-/* line 166, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 #toc-inline {
   margin: 100px 0 100px 0;
 }
 
-/* line 171, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 .shade-box {
   border: 2px solid black;
   padding: 40px;
@@ -231,14 +230,14 @@ main {
   background-color: #DDD;
 }
 
-/* line 178, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .card {
   padding: 10px;
   box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
   margin-bottom: 2rem;
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .card-heading {
   display: flex;
   flex-wrap: wrap;
@@ -247,48 +246,48 @@ main {
   margin-bottom: 1rem;
 }
 
-/* line 192, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .card-title a {
   text-decoration: none;
 }
-/* line 194, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .card-title a:hover {
   text-decoration: underline;
 }
 
-/* line 200, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .card-description {
   margin-left: 1rem;
 }
-/* line 203, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .card-description ol {
   list-style: decimal;
   margin-left: 2rem;
 }
 
-/* line 210, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .card-author {
   font-style: italic;
   color: #777;
 }
 
-/* line 215, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 .topic-description {
   margin-bottom: 3rem;
 }
 
-/* line 219, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .topic {
   margin-bottom: 5rem;
 }
 
-/* line 224, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 .sub-topic {
   padding: 10px;
   margin-bottom: 3rem;
 }
 
-/* line 229, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 #toc-toggle {
   font-size: 3rem;
   top: 40px;
@@ -298,13 +297,13 @@ main {
   margin-right: 5px;
 }
 
-/* line 238, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 #toc-toggle-img {
   width: 100%;
   opacity: .3;
 }
 
-/* line 243, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 #sidebar {
   display: none;
   position: fixed;
@@ -319,18 +318,18 @@ main {
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
 }
 @media (min-width: 1000px) {
-  /* line 243, ../sass/screen.scss */
+  /* line 242, ../sass/screen.scss */
   #sidebar {
     display: flex;
   }
 }
 
-/* line 260, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 .button {
   cursor: pointer;
 }
 
-/* line 264, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 #to-top-button {
   position: fixed;
   font-size: 3rem;
