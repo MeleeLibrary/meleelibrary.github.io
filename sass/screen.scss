@@ -140,8 +140,8 @@ p {
 }
 
 main {
-  margin-top: 150px;
-  margin-bottom: 30px;
+  padding-top: 150px;
+  padding-bottom: 30px;
 }
 
 .logo {
@@ -155,7 +155,7 @@ main {
 }
 
 .toc {
-  border-left: solid 5px LIGHTGREY;
+  // border-left: solid 5px LIGHTGREY;
   padding-left: 20px;
   ol {
     list-style: none;
@@ -227,20 +227,45 @@ main {
 }
 
 #toc-toggle {
-  position: fixed;
   font-size: 3rem;
   top: 40px;
   left: 40px;
   color: #ccc;
+  width: 40px;
+  margin-right: 5px
+}
+
+#toc-toggle-img  {
+ width: 100%; 
+ opacity: .3;
 }
 
 #sidebar {
+  display: none;
+  @media (min-width: 1000px) {
+    display: flex;
+  }
   position: fixed;
-  top: 60px;
-  left: -470px;
+  left: -400px;
   background-color: #FCFCFC;
   transition: left 0.3s ease-in;
   width: 450px;
-  padding: 20px;
-  // @include card(3);
+  padding-left: 20px;
+  padding-top: 20px;
+  height: 100%;
+  overflow: hidden;
+  @include card(2);
+}
+
+.button {
+  cursor: pointer;
+}
+
+#to-top-button {
+  position: fixed;
+  font-size: 3rem;
+  top: 40px;
+  right: 40px;
+  color: #000;
+  opacity: .3;
 }

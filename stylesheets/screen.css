@@ -192,8 +192,8 @@ p {
 
 /* line 142, ../sass/screen.scss */
 main {
-  margin-top: 150px;
-  margin-bottom: 30px;
+  padding-top: 150px;
+  padding-bottom: 30px;
 }
 
 /* line 147, ../sass/screen.scss */
@@ -210,7 +210,6 @@ main {
 
 /* line 157, ../sass/screen.scss */
 .toc {
-  border-left: solid 5px LIGHTGREY;
   padding-left: 20px;
 }
 /* line 160, ../sass/screen.scss */
@@ -291,20 +290,52 @@ main {
 
 /* line 229, ../sass/screen.scss */
 #toc-toggle {
-  position: fixed;
   font-size: 3rem;
   top: 40px;
   left: 40px;
   color: #ccc;
+  width: 40px;
+  margin-right: 5px;
 }
 
-/* line 237, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
+#toc-toggle-img {
+  width: 100%;
+  opacity: .3;
+}
+
+/* line 243, ../sass/screen.scss */
 #sidebar {
+  display: none;
   position: fixed;
-  top: 60px;
-  left: -470px;
+  left: -400px;
   background-color: #FCFCFC;
   transition: left 0.3s ease-in;
   width: 450px;
-  padding: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
+}
+@media (min-width: 1000px) {
+  /* line 243, ../sass/screen.scss */
+  #sidebar {
+    display: flex;
+  }
+}
+
+/* line 260, ../sass/screen.scss */
+.button {
+  cursor: pointer;
+}
+
+/* line 264, ../sass/screen.scss */
+#to-top-button {
+  position: fixed;
+  font-size: 3rem;
+  top: 40px;
+  right: 40px;
+  color: #000;
+  opacity: .3;
 }
