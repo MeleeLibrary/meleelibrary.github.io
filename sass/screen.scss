@@ -260,6 +260,31 @@ main {
   cursor: pointer;
 }
 
+.center {
+  margin: 0 auto;
+}
+
+.twitter-tweet {
+  margin: 3em auto 1em auto !important;
+}
+
+.credits {
+  font-style: italic;
+  width: 170px;
+}
+
+.center {
+  text-align: center;
+}
+
+.caption {
+  font-style:italic;
+  text-align: center;
+}
+em {
+  font-style:italic;
+}
+
 #to-top-button {
   position: fixed;
   font-size: 3rem;

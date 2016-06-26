@@ -330,6 +330,38 @@ main {
 }
 
 /* line 263, ../sass/screen.scss */
+.center {
+  margin: 0 auto;
+}
+
+/* line 267, ../sass/screen.scss */
+.twitter-tweet {
+  margin: 3em auto 1em auto !important;
+}
+
+/* line 271, ../sass/screen.scss */
+.credits {
+  font-style: italic;
+  width: 170px;
+}
+
+/* line 276, ../sass/screen.scss */
+.center {
+  text-align: center;
+}
+
+/* line 280, ../sass/screen.scss */
+.caption {
+  font-style: italic;
+  text-align: center;
+}
+
+/* line 284, ../sass/screen.scss */
+em {
+  font-style: italic;
+}
+
+/* line 288, ../sass/screen.scss */
 #to-top-button {
   position: fixed;
   font-size: 3rem;
