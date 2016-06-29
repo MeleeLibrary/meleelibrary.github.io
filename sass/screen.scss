@@ -206,6 +206,11 @@ main {
 
 }
 
+#toc-sidebar {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
 .card-author {
   font-style: italic;
   color: $LIGHTGREY;
@@ -221,8 +226,8 @@ main {
 }
 
 .sub-topic {
-  padding: 10px;
-  margin-bottom: 3rem;
+  padding: 10px 0 10px 0;
+  margin-bottom: 2rem;
 }
 
 #toc-toggle {

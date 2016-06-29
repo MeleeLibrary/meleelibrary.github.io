@@ -12,11 +12,13 @@ window.onload = function() {
     if(showSidebar) {
       document.getElementById("sidebar").style.left = '-400px';
       document.getElementById("sidebar").style.overflow = 'hidden';
+      document.getElementById("toc-sidebar").style.opacity = '0';
       showSidebar = false;
       // document.getElementById("toc-toggle").innerHTML = '&#62;'; 
     } else {
       document.getElementById("sidebar").style.left = '0px';
       document.getElementById("sidebar").style.overflow = 'auto';
+      document.getElementById("toc-sidebar").style.opacity = '1';
       showSidebar = true;
       // document.getElementById("toc-toggle").innerHTML = '&#60;';
     }

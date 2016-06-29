@@ -266,28 +266,34 @@ main {
 }
 
 /* line 209, ../sass/screen.scss */
+#toc-sidebar {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+/* line 214, ../sass/screen.scss */
 .card-author {
   font-style: italic;
   color: #777;
 }
 
-/* line 214, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 .topic-description {
   margin-bottom: 3rem;
 }
 
-/* line 218, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 .topic {
   margin-bottom: 5rem;
 }
 
-/* line 223, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 .sub-topic {
-  padding: 10px;
-  margin-bottom: 3rem;
+  padding: 10px 0 10px 0;
+  margin-bottom: 2rem;
 }
 
-/* line 228, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 #toc-toggle {
   font-size: 3rem;
   top: 40px;
@@ -297,13 +303,13 @@ main {
   margin-right: 5px;
 }
 
-/* line 237, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 #toc-toggle-img {
   width: 100%;
   opacity: .3;
 }
 
-/* line 242, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 #sidebar {
   display: none;
   position: fixed;
@@ -318,50 +324,50 @@ main {
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
 }
 @media (min-width: 1000px) {
-  /* line 242, ../sass/screen.scss */
+  /* line 247, ../sass/screen.scss */
   #sidebar {
     display: flex;
   }
 }
 
-/* line 259, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .button {
   cursor: pointer;
 }
 
-/* line 263, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 .center {
   margin: 0 auto;
 }
 
-/* line 267, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .twitter-tweet {
   margin: 3em auto 1em auto !important;
 }
 
-/* line 271, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .credits {
   font-style: italic;
   width: 170px;
 }
 
-/* line 276, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .center {
   text-align: center;
 }
 
-/* line 280, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 .caption {
   font-style: italic;
   text-align: center;
 }
 
-/* line 284, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 em {
   font-style: italic;
 }
 
-/* line 288, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 #to-top-button {
   position: fixed;
   font-size: 3rem;
