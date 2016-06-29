@@ -26,7 +26,7 @@ window.onload = function() {
   }, false );
 
   document.getElementById( 'to-top-button' ).addEventListener( 'click', function() {
-    window.scrollTo(0,1100);
+    window.scrollTo(0,1000);
   }, false );
 }
 
