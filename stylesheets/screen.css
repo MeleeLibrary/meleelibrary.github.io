@@ -267,7 +267,7 @@ main {
 
 /* line 209, ../sass/screen.scss */
 #toc-sidebar {
-  opacity: 1;
+  opacity: 0;
   transition: opacity 0.3s ease-in;
 }
 
