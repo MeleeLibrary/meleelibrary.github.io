@@ -376,3 +376,9 @@ em {
   color: #000;
   opacity: .3;
 }
+/* line 300, ../sass/screen.scss */
+#to-top-button a {
+  text-decoration: none;
+  color: #000;
+  font-family: sans;
+}
