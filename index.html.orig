@@ -791,9 +791,11 @@
           <div class="card">
             <div class="card-heading">
               <div class="card-title">
+<<<<<<< HEAD
+                <a target="_blank" href="http://i.imgur.com/rSdfHYL.png">DI Guide</a>
+=======
                 <a href="http://i.imgur.com/rSdfHYL.png">How to DI</a>
-              </div>
-
+>>>>>>> 0477c8c6472b2ae99a6f0242385c720f0e2cc2a1
               </div>
 
 
@@ -2876,11 +2878,13 @@
           <div class="card">
             <div class="card-heading">
               <div class="card-title">
+<<<<<<< HEAD
                 <a target="_blank" href="https://www.youtube.com/watch?v=501llsa-5ds">Wobbles
                 Explains Neutral</a>
-              </div>
-
-
+=======
+                <a href="https://www.youtube.com/watch?v=501llsa-5ds">
+				Wobbles Explains Neutral</a>
+>>>>>>> 0477c8c6472b2ae99a6f0242385c720f0e2cc2a1
               </div>
 
 
@@ -10793,7 +10797,11 @@
 		  <div class="card">
             <div class="card-heading">
               <div class="card-title">
+<<<<<<< HEAD
                 <a target="_blank" href="https://www.youtube.com/watch?v=I4ZqQCY6vT4&feature=youtu.be">How to Escape Dthrow Knee</a>
+=======
+                <a href="https://www.youtube.com/watch?v=I4ZqQCY6vT4">How to Escape Dthrow Knee</a>
+>>>>>>> 0477c8c6472b2ae99a6f0242385c720f0e2cc2a1
               </div>
 
 
