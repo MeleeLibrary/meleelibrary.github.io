@@ -303,3 +303,24 @@ em {
     font-family: sans;
   }
 }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0; 
+  border-color: LIGHTGREY;
+ }
+
+.recents {
+  padding-left: 40px;
+  padding-right: 40px;
+  ul {
+   padding-left: 2rem; 
+  }
+}
+
+.twitter-follow {
+  text-align: center;
+}

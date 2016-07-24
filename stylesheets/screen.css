@@ -382,3 +382,28 @@ em {
   color: #000;
   font-family: sans;
 }
+
+/* line 307, ../sass/screen.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+  border-color: LIGHTGREY;
+}
+
+/* line 316, ../sass/screen.scss */
+.recents {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* line 319, ../sass/screen.scss */
+.recents ul {
+  padding-left: 2rem;
+}
+
+/* line 324, ../sass/screen.scss */
+.twitter-follow {
+  text-align: center;
+}
