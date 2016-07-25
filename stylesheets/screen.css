@@ -166,63 +166,62 @@ h3 {
   line-height: 1.4rem;
   margin: 2rem 0 1rem 0;
 }
+/* line 121, ../sass/screen.scss */
+h3.no-margin {
+  margin: 0;
+}
 
-/* line 122, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 h4 {
   font-size: 1.1rem;
   line-height: 1.1rem;
   margin: 2rem 0 1rem 0;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 h5 {
   margin: 2rem 0 1rem 0;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 h6 {
   margin: 2rem 0 1rem 0;
 }
 
-/* line 137, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 p {
   font-family: Georgia, sans-serif;
   margin-bottom: 1rem;
 }
 
-/* line 142, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 main {
   padding: 150px 10px 30px 10px;
 }
 
-/* line 146, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 .logo {
   margin-bottom: 4rem;
 }
 
-/* line 150, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 #intro {
   max-width: 650px;
   margin: 0 auto;
   margin-bottom: 3rem;
 }
 
-/* line 156, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 .toc {
   padding-left: 20px;
 }
-/* line 159, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 .toc ol {
   list-style: none;
   padding-left: 40px;
 }
 
-/* line 165, ../sass/screen.scss */
-#toc-inline {
-  margin: 100px 0 100px 0;
-}
-
-/* line 170, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 .shade-box {
   border: 2px solid black;
   padding: 40px;
@@ -230,14 +229,14 @@ main {
   background-color: #DDD;
 }
 
-/* line 177, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .card {
   padding: 10px;
   box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
   margin-bottom: 2rem;
 }
 
-/* line 183, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 .card-heading {
   display: flex;
   flex-wrap: wrap;
@@ -246,128 +245,138 @@ main {
   margin-bottom: 1rem;
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .card-title a {
   text-decoration: none;
 }
-/* line 193, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 .card-title a:hover {
   text-decoration: underline;
 }
 
-/* line 199, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 .card-description {
   margin-left: 1rem;
 }
-/* line 202, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .card-description ol {
   list-style: decimal;
   margin-left: 2rem;
 }
 
-/* line 209, ../sass/screen.scss */
-#toc-sidebar {
-  opacity: 0;
-  transition: opacity 0.3s ease-in;
-}
-
-/* line 214, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .card-author {
   font-style: italic;
   color: #777;
 }
 
-/* line 219, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .topic-description {
   margin-bottom: 3rem;
 }
 
-/* line 223, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 .topic {
   margin-bottom: 5rem;
 }
 
-/* line 228, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 .sub-topic {
   padding: 10px 0 10px 0;
   margin-bottom: 2rem;
 }
 
-/* line 233, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 #toc-toggle {
   font-size: 3rem;
-  top: 40px;
-  left: 40px;
   color: #ccc;
   width: 40px;
   margin-right: 5px;
 }
 
-/* line 242, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 #toc-toggle-img {
   width: 100%;
   opacity: .3;
 }
 
-/* line 247, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 #sidebar {
   display: none;
   position: fixed;
   left: -400px;
+  overflow: hidden;
   background-color: #FCFCFC;
   transition: left 0.3s ease-in;
   width: 450px;
-  padding-left: 20px;
-  padding-top: 20px;
   height: 100%;
-  overflow: hidden;
+  flex-direction: column;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
 }
 @media (min-width: 1000px) {
-  /* line 247, ../sass/screen.scss */
+  /* line 244, ../sass/screen.scss */
   #sidebar {
     display: flex;
   }
 }
 
-/* line 264, ../sass/screen.scss */
+/* line 260, ../sass/screen.scss */
+#sidebar-header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  padding: 20px 0 20px 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 270, ../sass/screen.scss */
+#toc-sidebar {
+  padding-left: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+  overflow: auto;
+}
+
+/* line 278, ../sass/screen.scss */
 .button {
   cursor: pointer;
 }
 
-/* line 268, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 .center {
   margin: 0 auto;
 }
 
-/* line 272, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .twitter-tweet {
   margin: 3em auto 1em auto !important;
 }
 
-/* line 276, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 .credits {
   font-style: italic;
   width: 170px;
 }
 
-/* line 281, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .center {
   text-align: center;
 }
 
-/* line 285, ../sass/screen.scss */
+/* line 299, ../sass/screen.scss */
 .caption {
   font-style: italic;
   text-align: center;
 }
 
-/* line 289, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 em {
   font-style: italic;
 }
 
-/* line 293, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 #to-top-button {
   position: fixed;
   font-size: 3rem;
@@ -376,14 +385,14 @@ em {
   color: #000;
   opacity: .3;
 }
-/* line 300, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 #to-top-button a {
   text-decoration: none;
   color: #000;
   font-family: sans;
 }
 
-/* line 307, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 hr {
   display: block;
   height: 1px;
@@ -393,17 +402,19 @@ hr {
   border-color: LIGHTGREY;
 }
 
-/* line 316, ../sass/screen.scss */
+/* line 330, ../sass/screen.scss */
 .recents {
   padding-left: 40px;
   padding-right: 40px;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
-/* line 319, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
 .recents ul {
   padding-left: 2rem;
 }
 
-/* line 324, ../sass/screen.scss */
+/* line 340, ../sass/screen.scss */
 .twitter-follow {
   text-align: center;
 }
