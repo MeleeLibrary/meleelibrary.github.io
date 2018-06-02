@@ -8,7 +8,7 @@ Made with love by D. Bag. (dbag@meleelibrary.com) and Nate
 
 #####New Links
 
-We are happy to take suggestions for new links. If you find/make something you
+We are happy to take suggestions for new links and content. If you find/make something you
 believe is worth including, please contact D. Bag. and let him know! Keep in
 mind that we aren't able to include everything ever made, though all
 suggestions are greatly appreciated!
