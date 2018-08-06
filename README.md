@@ -5,7 +5,7 @@ Made with love by D. Bag. (dbag@meleelibrary.com) and Nate
 
 #### Content
 
-##### New Links  
+##### New Links   
 
 We are happy to take suggestions for new links and content. If you find/make something you
 believe is worth including, please contact D. Bag. and let him know! Keep in
