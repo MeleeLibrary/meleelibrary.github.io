@@ -1,0 +1,21 @@
+<div class="card">
+    <div class="card-heading">
+    <div class="card-title">
+        <a href=
+        "https://www.youtube.com/playlist?list=PLoU3TQBakHOrE9yYdNlsmG74LEB0Mf3h8"
+        target="_blank">How To Learn Melee</a>
+    </div>
+
+
+    <div class="card-author">
+        by Kira
+    </div>
+    </div>
+
+
+    <div class="card-description">
+    <p>A playlist of videos covering basic techniques. It is a little
+    redundant compared to the previous sources, but maybe you prefer
+    videos.</p>
+    </div>
+</div>
